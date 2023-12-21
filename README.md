@@ -29,7 +29,7 @@ Start a GitHub proxy
     Flags:
         --cert-file string   Certificate for the proxy (default "github.com.pem")
         --key-file string    Private key for the proxy (default "github.com-key.pem")
-        --proxy string       Proxy target (default "https://ghproxy.com")
+        --proxy string       Proxy target (default "https://mirror.ghproxy.com")
     ```
 
     Github proxy will use port `443`, try `sudo github-proxy` if you start failed.

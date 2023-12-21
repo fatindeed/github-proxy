@@ -18,7 +18,7 @@ import (
 func init() {
 	rootCmd.PersistentFlags().StringVar(&certFile, "cert-file", "github.com.pem", "Certificate for the proxy")
 	rootCmd.PersistentFlags().StringVar(&keyFile, "key-file", "github.com-key.pem", "Private key for the proxy")
-	rootCmd.PersistentFlags().StringVar(&proxyTarget, "proxy", "https://ghproxy.com", "Proxy target")
+	rootCmd.PersistentFlags().StringVar(&proxyTarget, "proxy", "https://mirror.ghproxy.com", "Proxy target")
 }
 
 var (
